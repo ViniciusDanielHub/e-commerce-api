@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_filter_categories",
+  "info": {
+    "name": "filterCategories",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "radio",
+        "checkbox"
+      ],
+      "required": true
+    },
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.fields",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_names",
+  "info": {
+    "name": "name",
+    "icon": "user-astronaut"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "integer"
+    }
+  }
+}

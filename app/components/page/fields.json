@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_fields",
+  "info": {
+    "name": "fields",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
